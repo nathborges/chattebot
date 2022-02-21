@@ -70,6 +70,7 @@ class ActionsViewController: UIViewController {
         httpRequest(requestUrl: urlFormatted)
     }
     
+    //MARK: Get current date and shows on the label
     func refreshTime(){
         var date = Date()
         var calendar = Calendar.current
@@ -81,14 +82,7 @@ class ActionsViewController: UIViewController {
         
         lastFeedAction = "alimentado pela última vez no dia \(day)/\(month) às \(hour):\(minute)"
         lastTime.text = lastFeedAction
-        
-        
-        
-        
     }
-    
-    
-    
 }
 
 

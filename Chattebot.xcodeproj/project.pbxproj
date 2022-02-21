@@ -20,12 +20,9 @@
 		35E81EAF27C1625E00A4E5D2 /* VisbySemibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 35E81EA827C1625E00A4E5D2 /* VisbySemibold.otf */; };
 		35E81EBA27C17AE900A4E5D2 /* happy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 35E81EB627C17AE800A4E5D2 /* happy.gif */; };
 		35E81EBB27C17AE900A4E5D2 /* judging.gif in Resources */ = {isa = PBXBuildFile; fileRef = 35E81EB727C17AE800A4E5D2 /* judging.gif */; };
-		35E81EBD27C17AE900A4E5D2 /* normal.gif in Resources */ = {isa = PBXBuildFile; fileRef = 35E81EB927C17AE900A4E5D2 /* normal.gif */; };
 		35E81EBF27C1890B00A4E5D2 /* eating.gif in Resources */ = {isa = PBXBuildFile; fileRef = 35E81EBE27C1890B00A4E5D2 /* eating.gif */; };
-		35E81EC327C18B6500A4E5D2 /* dontcare.gif in Resources */ = {isa = PBXBuildFile; fileRef = 35E81EC227C18B6500A4E5D2 /* dontcare.gif */; };
 		35E81EC527C1C8C700A4E5D2 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E81EC427C1C8C700A4E5D2 /* ConfigViewController.swift */; };
 		35E81EC827C1CCFC00A4E5D2 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E81EC727C1CCFC00A4E5D2 /* ShadowView.swift */; };
-		35E81ECA27C1CEB500A4E5D2 /* ShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E81EC927C1CEB500A4E5D2 /* ShadowButton.swift */; };
 		35E81ECD27C1D8B200A4E5D2 /* VisbyExtrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 35E81ECC27C1D8B200A4E5D2 /* VisbyExtrabold.otf */; };
 		F0247AD48145D328B1565581 /* Pods_Chattebot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3150061150B765349CB72E1 /* Pods_Chattebot.framework */; };
 /* End PBXBuildFile section */
@@ -46,12 +43,9 @@
 		35E81EA827C1625E00A4E5D2 /* VisbySemibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VisbySemibold.otf; sourceTree = "<group>"; };
 		35E81EB627C17AE800A4E5D2 /* happy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = happy.gif; sourceTree = "<group>"; };
 		35E81EB727C17AE800A4E5D2 /* judging.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = judging.gif; sourceTree = "<group>"; };
-		35E81EB927C17AE900A4E5D2 /* normal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = normal.gif; sourceTree = "<group>"; };
 		35E81EBE27C1890B00A4E5D2 /* eating.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = eating.gif; sourceTree = "<group>"; };
-		35E81EC227C18B6500A4E5D2 /* dontcare.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dontcare.gif; sourceTree = "<group>"; };
 		35E81EC427C1C8C700A4E5D2 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
 		35E81EC727C1CCFC00A4E5D2 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
-		35E81EC927C1CEB500A4E5D2 /* ShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButton.swift; sourceTree = "<group>"; };
 		35E81ECC27C1D8B200A4E5D2 /* VisbyExtrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VisbyExtrabold.otf; sourceTree = "<group>"; };
 		3AA88F6CDD270C28CF822A61 /* Pods-Chattebot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chattebot.debug.xcconfig"; path = "Target Support Files/Pods-Chattebot/Pods-Chattebot.debug.xcconfig"; sourceTree = "<group>"; };
 		D3150061150B765349CB72E1 /* Pods_Chattebot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chattebot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,8 +135,6 @@
 				35E81EB627C17AE800A4E5D2 /* happy.gif */,
 				35E81EBE27C1890B00A4E5D2 /* eating.gif */,
 				35E81EB727C17AE800A4E5D2 /* judging.gif */,
-				35E81EC227C18B6500A4E5D2 /* dontcare.gif */,
-				35E81EB927C17AE900A4E5D2 /* normal.gif */,
 			);
 			path = Gifs;
 			sourceTree = "<group>";
@@ -151,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				35E81EC727C1CCFC00A4E5D2 /* ShadowView.swift */,
-				35E81EC927C1CEB500A4E5D2 /* ShadowButton.swift */,
 			);
 			path = Customizable;
 			sourceTree = "<group>";
@@ -241,8 +232,6 @@
 				35E81EAD27C1625E00A4E5D2 /* VisbyMedium.otf in Resources */,
 				35E81EAA27C1625E00A4E5D2 /* VisbyRegular.otf in Resources */,
 				358F2A3827BEE79E00CD6D02 /* Main.storyboard in Resources */,
-				35E81EBD27C17AE900A4E5D2 /* normal.gif in Resources */,
-				35E81EC327C18B6500A4E5D2 /* dontcare.gif in Resources */,
 				35E81EBB27C17AE900A4E5D2 /* judging.gif in Resources */,
 				35E81ECD27C1D8B200A4E5D2 /* VisbyExtrabold.otf in Resources */,
 				35E81EBA27C17AE900A4E5D2 /* happy.gif in Resources */,
@@ -303,7 +292,6 @@
 				358F2A3127BEE79E00CD6D02 /* AppDelegate.swift in Sources */,
 				358F2A3327BEE79E00CD6D02 /* SceneDelegate.swift in Sources */,
 				35E81EC527C1C8C700A4E5D2 /* ConfigViewController.swift in Sources */,
-				35E81ECA27C1CEB500A4E5D2 /* ShadowButton.swift in Sources */,
 				35E81E9D27C15D4C00A4E5D2 /* ActionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

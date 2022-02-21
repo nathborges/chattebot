@@ -17,8 +17,8 @@ class ViewController: UIViewController {
         self.navigationItem.setHidesBackButton(true, animated: true)
         super.viewDidLoad()
         
+        // MARK: Get name from other ViewController
         let defaults = UserDefaults.standard
-        
         let newName = defaults.string(forKey: "name")
         
         if (newName == nil) {
@@ -28,8 +28,6 @@ class ViewController: UIViewController {
         
         firstLabel.text = "oi, \(newName!)"
     }
-    
-    
     
     @IBAction func configButton(_ sender: UIButton) {
         let configViewController = self.storyboard?.instantiateViewController(withIdentifier: "ConfigView")

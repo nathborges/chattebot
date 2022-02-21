@@ -489,14 +489,6 @@
             <point key="canvasLocation" x="12.307692307692307" y="74.644549763033169"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="lqY-4G-SrD">
-            <size key="intrinsicContentSize" width="164.66666666666666" height="44"/>
-        </designable>
-        <designable name="n7G-it-a0d">
-            <size key="intrinsicContentSize" width="257" height="43.333333333333336"/>
-        </designable>
-    </designables>
     <resources>
         <image name="Label" width="312.33334350585938" height="62.333332061767578"/>
         <image name="Paw" width="89" height="197"/>
