@@ -1,0 +1,6 @@
+framework module Pods_Chattebot {
+  umbrella header "Pods-Chattebot-umbrella.h"
+
+  export *
+  module * { export * }
+}

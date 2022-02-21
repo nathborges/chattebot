@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		358F2A3127BEE79E00CD6D02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358F2A3027BEE79E00CD6D02 /* AppDelegate.swift */; };
+		358F2A3327BEE79E00CD6D02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358F2A3227BEE79E00CD6D02 /* SceneDelegate.swift */; };
+		358F2A3527BEE79E00CD6D02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358F2A3427BEE79E00CD6D02 /* ViewController.swift */; };
+		358F2A3827BEE79E00CD6D02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358F2A3627BEE79E00CD6D02 /* Main.storyboard */; };
+		358F2A3A27BEE7A000CD6D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358F2A3927BEE7A000CD6D02 /* Assets.xcassets */; };
+		358F2A3D27BEE7A000CD6D02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358F2A3B27BEE7A000CD6D02 /* LaunchScreen.storyboard */; };
+		35E81E9D27C15D4C00A4E5D2 /* ActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E81E9C27C15D4C00A4E5D2 /* ActionsViewController.swift */; };
+		35E81EAA27C1625E00A4E5D2 /* VisbyRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 35E81EA327C1625E00A4E5D2 /* VisbyRegular.otf */; };
+		35E81EAB27C1625E00A4E5D2 /* VisbyBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 35E81EA427C1625E00A4E5D2 /* VisbyBold.otf */; };
+		35E81EAD27C1625E00A4E5D2 /* VisbyMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 35E81EA627C1625E00A4E5D2 /* VisbyMedium.otf */; };
+		35E81EAF27C1625E00A4E5D2 /* VisbySemibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 35E81EA827C1625E00A4E5D2 /* VisbySemibold.otf */; };
+		35E81EBA27C17AE900A4E5D2 /* happy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 35E81EB627C17AE800A4E5D2 /* happy.gif */; };
+		35E81EBB27C17AE900A4E5D2 /* judging.gif in Resources */ = {isa = PBXBuildFile; fileRef = 35E81EB727C17AE800A4E5D2 /* judging.gif */; };
+		35E81EBD27C17AE900A4E5D2 /* normal.gif in Resources */ = {isa = PBXBuildFile; fileRef = 35E81EB927C17AE900A4E5D2 /* normal.gif */; };
+		35E81EBF27C1890B00A4E5D2 /* eating.gif in Resources */ = {isa = PBXBuildFile; fileRef = 35E81EBE27C1890B00A4E5D2 /* eating.gif */; };
+		35E81EC327C18B6500A4E5D2 /* dontcare.gif in Resources */ = {isa = PBXBuildFile; fileRef = 35E81EC227C18B6500A4E5D2 /* dontcare.gif */; };
+		35E81EC527C1C8C700A4E5D2 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E81EC427C1C8C700A4E5D2 /* ConfigViewController.swift */; };
+		35E81EC827C1CCFC00A4E5D2 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E81EC727C1CCFC00A4E5D2 /* ShadowView.swift */; };
+		35E81ECA27C1CEB500A4E5D2 /* ShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E81EC927C1CEB500A4E5D2 /* ShadowButton.swift */; };
+		35E81ECD27C1D8B200A4E5D2 /* VisbyExtrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 35E81ECC27C1D8B200A4E5D2 /* VisbyExtrabold.otf */; };
+		F0247AD48145D328B1565581 /* Pods_Chattebot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3150061150B765349CB72E1 /* Pods_Chattebot.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		358F2A2D27BEE79E00CD6D02 /* Chattebot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chattebot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		358F2A3027BEE79E00CD6D02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		358F2A3227BEE79E00CD6D02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		358F2A3427BEE79E00CD6D02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		358F2A3727BEE79E00CD6D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		358F2A3927BEE7A000CD6D02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		358F2A3C27BEE7A000CD6D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		358F2A3E27BEE7A000CD6D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E81E9C27C15D4C00A4E5D2 /* ActionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsViewController.swift; sourceTree = "<group>"; };
+		35E81EA327C1625E00A4E5D2 /* VisbyRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VisbyRegular.otf; sourceTree = "<group>"; };
+		35E81EA427C1625E00A4E5D2 /* VisbyBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VisbyBold.otf; sourceTree = "<group>"; };
+		35E81EA627C1625E00A4E5D2 /* VisbyMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VisbyMedium.otf; sourceTree = "<group>"; };
+		35E81EA827C1625E00A4E5D2 /* VisbySemibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VisbySemibold.otf; sourceTree = "<group>"; };
+		35E81EB627C17AE800A4E5D2 /* happy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = happy.gif; sourceTree = "<group>"; };
+		35E81EB727C17AE800A4E5D2 /* judging.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = judging.gif; sourceTree = "<group>"; };
+		35E81EB927C17AE900A4E5D2 /* normal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = normal.gif; sourceTree = "<group>"; };
+		35E81EBE27C1890B00A4E5D2 /* eating.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = eating.gif; sourceTree = "<group>"; };
+		35E81EC227C18B6500A4E5D2 /* dontcare.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dontcare.gif; sourceTree = "<group>"; };
+		35E81EC427C1C8C700A4E5D2 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		35E81EC727C1CCFC00A4E5D2 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		35E81EC927C1CEB500A4E5D2 /* ShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButton.swift; sourceTree = "<group>"; };
+		35E81ECC27C1D8B200A4E5D2 /* VisbyExtrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VisbyExtrabold.otf; sourceTree = "<group>"; };
+		3AA88F6CDD270C28CF822A61 /* Pods-Chattebot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chattebot.debug.xcconfig"; path = "Target Support Files/Pods-Chattebot/Pods-Chattebot.debug.xcconfig"; sourceTree = "<group>"; };
+		D3150061150B765349CB72E1 /* Pods_Chattebot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chattebot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0252CA3A0A33058EF7EA32B /* Pods-Chattebot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chattebot.release.xcconfig"; path = "Target Support Files/Pods-Chattebot/Pods-Chattebot.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		358F2A2A27BEE79E00CD6D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0247AD48145D328B1565581 /* Pods_Chattebot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		358F2A2427BEE79E00CD6D02 = {
+			isa = PBXGroup;
+			children = (
+				358F2A2F27BEE79E00CD6D02 /* Chattebot */,
+				358F2A2E27BEE79E00CD6D02 /* Products */,
+				3F059108C7AA7856BB3D080A /* Pods */,
+				3D917B5C97EF4517DD100461 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		358F2A2E27BEE79E00CD6D02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				358F2A2D27BEE79E00CD6D02 /* Chattebot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		358F2A2F27BEE79E00CD6D02 /* Chattebot */ = {
+			isa = PBXGroup;
+			children = (
+				35E81EC627C1CCE300A4E5D2 /* Customizable */,
+				35E81EB527C17AD900A4E5D2 /* Gifs */,
+				35E81E8927BF28C100A4E5D2 /* fonts */,
+				358F2A3027BEE79E00CD6D02 /* AppDelegate.swift */,
+				358F2A3227BEE79E00CD6D02 /* SceneDelegate.swift */,
+				35E81E9A27C007BA00A4E5D2 /* Controller */,
+				35E81E9B27C007CB00A4E5D2 /* View */,
+				358F2A3927BEE7A000CD6D02 /* Assets.xcassets */,
+				358F2A3B27BEE7A000CD6D02 /* LaunchScreen.storyboard */,
+				358F2A3E27BEE7A000CD6D02 /* Info.plist */,
+			);
+			path = Chattebot;
+			sourceTree = "<group>";
+		};
+		35E81E8927BF28C100A4E5D2 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				35E81ECC27C1D8B200A4E5D2 /* VisbyExtrabold.otf */,
+				35E81EA427C1625E00A4E5D2 /* VisbyBold.otf */,
+				35E81EA627C1625E00A4E5D2 /* VisbyMedium.otf */,
+				35E81EA327C1625E00A4E5D2 /* VisbyRegular.otf */,
+				35E81EA827C1625E00A4E5D2 /* VisbySemibold.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		35E81E9A27C007BA00A4E5D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				358F2A3427BEE79E00CD6D02 /* ViewController.swift */,
+				35E81E9C27C15D4C00A4E5D2 /* ActionsViewController.swift */,
+				35E81EC427C1C8C700A4E5D2 /* ConfigViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35E81E9B27C007CB00A4E5D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				358F2A3627BEE79E00CD6D02 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35E81EB527C17AD900A4E5D2 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				35E81EB627C17AE800A4E5D2 /* happy.gif */,
+				35E81EBE27C1890B00A4E5D2 /* eating.gif */,
+				35E81EB727C17AE800A4E5D2 /* judging.gif */,
+				35E81EC227C18B6500A4E5D2 /* dontcare.gif */,
+				35E81EB927C17AE900A4E5D2 /* normal.gif */,
+			);
+			path = Gifs;
+			sourceTree = "<group>";
+		};
+		35E81EC627C1CCE300A4E5D2 /* Customizable */ = {
+			isa = PBXGroup;
+			children = (
+				35E81EC727C1CCFC00A4E5D2 /* ShadowView.swift */,
+				35E81EC927C1CEB500A4E5D2 /* ShadowButton.swift */,
+			);
+			path = Customizable;
+			sourceTree = "<group>";
+		};
+		3D917B5C97EF4517DD100461 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3150061150B765349CB72E1 /* Pods_Chattebot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F059108C7AA7856BB3D080A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AA88F6CDD270C28CF822A61 /* Pods-Chattebot.debug.xcconfig */,
+				F0252CA3A0A33058EF7EA32B /* Pods-Chattebot.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		358F2A2C27BEE79E00CD6D02 /* Chattebot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358F2A4127BEE7A000CD6D02 /* Build configuration list for PBXNativeTarget "Chattebot" */;
+			buildPhases = (
+				E9EEC5D142C19F4D383EF49A /* [CP] Check Pods Manifest.lock */,
+				358F2A2927BEE79E00CD6D02 /* Sources */,
+				358F2A2A27BEE79E00CD6D02 /* Frameworks */,
+				358F2A2B27BEE79E00CD6D02 /* Resources */,
+				77DDD387251D0D5D0CF40953 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chattebot;
+			productName = Chattebot;
+			productReference = 358F2A2D27BEE79E00CD6D02 /* Chattebot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		358F2A2527BEE79E00CD6D02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					358F2A2C27BEE79E00CD6D02 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 358F2A2827BEE79E00CD6D02 /* Build configuration list for PBXProject "Chattebot" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 358F2A2427BEE79E00CD6D02;
+			productRefGroup = 358F2A2E27BEE79E00CD6D02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				358F2A2C27BEE79E00CD6D02 /* Chattebot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		358F2A2B27BEE79E00CD6D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E81EBF27C1890B00A4E5D2 /* eating.gif in Resources */,
+				35E81EAF27C1625E00A4E5D2 /* VisbySemibold.otf in Resources */,
+				35E81EAB27C1625E00A4E5D2 /* VisbyBold.otf in Resources */,
+				358F2A3D27BEE7A000CD6D02 /* LaunchScreen.storyboard in Resources */,
+				358F2A3A27BEE7A000CD6D02 /* Assets.xcassets in Resources */,
+				35E81EAD27C1625E00A4E5D2 /* VisbyMedium.otf in Resources */,
+				35E81EAA27C1625E00A4E5D2 /* VisbyRegular.otf in Resources */,
+				358F2A3827BEE79E00CD6D02 /* Main.storyboard in Resources */,
+				35E81EBD27C17AE900A4E5D2 /* normal.gif in Resources */,
+				35E81EC327C18B6500A4E5D2 /* dontcare.gif in Resources */,
+				35E81EBB27C17AE900A4E5D2 /* judging.gif in Resources */,
+				35E81ECD27C1D8B200A4E5D2 /* VisbyExtrabold.otf in Resources */,
+				35E81EBA27C17AE900A4E5D2 /* happy.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77DDD387251D0D5D0CF40953 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chattebot/Pods-Chattebot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chattebot/Pods-Chattebot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chattebot/Pods-Chattebot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9EEC5D142C19F4D383EF49A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chattebot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		358F2A2927BEE79E00CD6D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E81EC827C1CCFC00A4E5D2 /* ShadowView.swift in Sources */,
+				358F2A3527BEE79E00CD6D02 /* ViewController.swift in Sources */,
+				358F2A3127BEE79E00CD6D02 /* AppDelegate.swift in Sources */,
+				358F2A3327BEE79E00CD6D02 /* SceneDelegate.swift in Sources */,
+				35E81EC527C1C8C700A4E5D2 /* ConfigViewController.swift in Sources */,
+				35E81ECA27C1CEB500A4E5D2 /* ShadowButton.swift in Sources */,
+				35E81E9D27C15D4C00A4E5D2 /* ActionsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		358F2A3627BEE79E00CD6D02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358F2A3727BEE79E00CD6D02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		358F2A3B27BEE7A000CD6D02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358F2A3C27BEE7A000CD6D02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		358F2A3F27BEE7A000CD6D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		358F2A4027BEE7A000CD6D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		358F2A4227BEE7A000CD6D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA88F6CDD270C28CF822A61 /* Pods-Chattebot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chattebot/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathaliaborges.Chattebot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		358F2A4327BEE7A000CD6D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0252CA3A0A33058EF7EA32B /* Pods-Chattebot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chattebot/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathaliaborges.Chattebot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		358F2A2827BEE79E00CD6D02 /* Build configuration list for PBXProject "Chattebot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358F2A3F27BEE7A000CD6D02 /* Debug */,
+				358F2A4027BEE7A000CD6D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		358F2A4127BEE7A000CD6D02 /* Build configuration list for PBXNativeTarget "Chattebot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358F2A4227BEE7A000CD6D02 /* Debug */,
+				358F2A4327BEE7A000CD6D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 358F2A2527BEE79E00CD6D02 /* Project object */;
+}
