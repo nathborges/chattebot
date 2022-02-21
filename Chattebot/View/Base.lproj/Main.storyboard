@@ -74,7 +74,7 @@
                                                             <constraint firstAttribute="height" constant="60" id="irN-kt-c4K"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="VisbyMedium" family="Visby" pointSize="31"/>
-                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numbersAndPunctuation" smartInsertDeleteType="no" smartQuotesType="no" textContentType="postal-code"/>
+                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="name"/>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
